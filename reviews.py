@@ -5,7 +5,7 @@ with open('reviews.txt', 'r') as f:
 		data.append(line)      
 		count += 1                  #計數資料數量
 		if count % 10000 == 0:      #每10000筆資料印出
-			print(len(data))
+			print(len(data))    #每筆data代表一筆留言
 print('檔案讀取完了,總共有', len(data), '筆資料')
 
 sum_len = 0
